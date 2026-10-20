@@ -7,7 +7,7 @@ import plotly.express as px
 import requests
 import streamlit as st
 from sklearn.model_selection import train_test_split
-from src.model_deploy_avance4 import CreditRecord
+from src.model_deploy_avance4 import CreditRecord ##modificado
 from src.model_monitoring_avance3 import (normalize_features, record_predictions, read_log,
                               measure_drift, save_drift_snapshot, read_history)
 
